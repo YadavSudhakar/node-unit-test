@@ -1,0 +1,17 @@
+{
+    "presets": [ "es2015", "stage-2", "jest", [ "env",
+            {
+                "targets": {
+                    "node": "current"
+                }
+            }]
+    ],
+    "plugins": [],
+    "env": {
+        "test": {
+            "plugins": [
+                "istanbul"
+            ]
+        }
+    }
+}
